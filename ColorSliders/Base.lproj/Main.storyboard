@@ -118,6 +118,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="alphaSlider" destination="qIk-ws-MpE" id="BX5-g6-von"/>
+                        <outlet property="blueSlider" destination="Juz-w8-zwN" id="c94-lz-NK3"/>
+                        <outlet property="greenSlider" destination="g7C-aW-swB" id="SUV-Co-6Es"/>
+                        <outlet property="redSlider" destination="KQy-zl-CR6" id="mtp-Rn-NQ5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
