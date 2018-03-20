@@ -16,4 +16,12 @@
 @property (weak, nonatomic) IBOutlet UISlider* blueSlider;
 @property (weak, nonatomic) IBOutlet UISlider* alphaSlider;
 
+@property (weak, nonatomic) IBOutlet UILabel* redLabel;
+@property (weak, nonatomic) IBOutlet UILabel* greenLabel;
+@property (weak, nonatomic) IBOutlet UILabel* blueLabel;
+@property (weak, nonatomic) IBOutlet UILabel* alphaLabel;
+@property (weak, nonatomic) IBOutlet UIView *colorView;
+
+- (IBAction) sliderChanged:(id)sender;
+
 @end
